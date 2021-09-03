@@ -39,10 +39,7 @@ a:hover {
   .link-ul:not(:last-child) {
     margin-right: 25px; }
   .link a:hover {
-    box-shadow: -7px -7px 20px 0px #fff9,
- -4px -4px 5px 0px #fff9,
- 7px 7px 20px 0px #0002,
- 4px 4px 5px 0px #0001; }
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001; }
   .link__consulta {
     border: 1px solid grey; }
 
@@ -162,7 +159,7 @@ nav {
     border: 1px solid black;
     border-radius: 20px; }
   .section__info {
-    height: auto;
+    height: 280px;
     width: 370px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -176,6 +173,20 @@ nav {
     font-weight: bold;
     font-size: 1.4375rem;
     margin: 16px 0 24px 0; }
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: 100%;
+    height: auto; }
+    .section__container {
+      height: 100%;
+      width: 80%;
+      flex-direction: column !important; }
+    .section__info {
+      width: 100%;
+      height: auto; }
+    .section__info:not(:last-child) {
+      margin-bottom: 35px; } }
 
 .footer {
   background: linear-gradient(90deg, #c2796e 0%, #e9b670 68%);

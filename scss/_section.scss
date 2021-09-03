@@ -32,3 +32,22 @@
     margin: 16px 0 24px 0;
   }
 }
+
+@include screenSize-down (md) {
+  .section {
+    width: 100%;
+    height: auto;
+    &__container {
+      height: 100%;
+      width: 80%;
+      flex-direction: column !important;
+    }
+    &__info {
+      width: 100%;
+      height: auto;
+    }
+    &__info:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+}
