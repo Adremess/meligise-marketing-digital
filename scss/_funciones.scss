@@ -1,0 +1,30 @@
+@mixin screenSize-up ($breakpoint) {
+  @media screen and (min-width: map-get($breakpoints-up, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin screenSize-down ($breakpoint) {
+  @media screen and (max-width: map-get($breakpoints-down, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin darkMode ($active: false) {
+  @if $active {
+    @content;
+  }
+}
+
+
+@mixin toRem ($fontSize) {
+  font-size: ($fontSize / 16) + rem;
+}
+
+@mixin shadowLink() {
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+}
