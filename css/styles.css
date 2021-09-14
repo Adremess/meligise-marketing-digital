@@ -159,20 +159,7 @@ nav {
 
 .section {
   width: 100%;
-  height: 400px;
-  /*&__info {
-    height: 280px;
-    width: 370px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    justify-content: center;
-    p {
-      color: black;
-      padding: 0 15px;
-      line-height: 22px;
-      @include toRem(17);
-    }
-  }*/ }
+  height: 400px; }
   .section__container {
     height: 100%;
     width: 90%;

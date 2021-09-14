@@ -12,21 +12,22 @@
 </head>
 <body>
   <header>
-    <nav class="flex flex-jc-sb header">
-      <a href="../index.html">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html">
         <img class="header__logo" src="../assets/marketing.svg" alt="logo">
       </a>
-      <div class="flex sub-div">
-        <label class="header__menu-icon" for="menu-btn">&#9776;</label>
-        <input class="header__menu-btn" type="checkbox" id="menu-btn" />
-        <ul class="flex flex-as-c header__ul">
-          <li class=""><a class="" href="../index.html">Inicio</a></li>
-          <li class=""><a class="" href="./nosotros.html">Quien soy</a></li>
-          <li class=""><a class="" href="#">Servicios</a></li>
-          <li class=""><a class="" href="./testimoniales.html">Testimoniales</a></li>
-          <li class=""><a class="" href="./contacto.html">Contacto</a></li>
-        </ul>
-      </div> <!-- <a href="./pages/contacto.html" class="boton__consulta boton__consulta--nav flex-as-c">Consulta</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html">Inicio</a>
+          <a class="nav-link" href="./nosotros.html">Quienes somos</a>
+          <a class="nav-link active" href="#">Servicios <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="./testimoniales.html">Testimoniales</a>
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </div>
+      </div>
     </nav>
   </header>  
 
