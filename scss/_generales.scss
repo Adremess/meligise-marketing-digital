@@ -65,7 +65,7 @@ a:hover {
 }
 
 .hero {
-  background-image: url('../assets/hero-bg.jpg');
+  background-image: url('../assets/marketing-digital.jpg');
   width: 100%;
   height: 75vh;
   @include screenSize-down(md) {
@@ -74,6 +74,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 100px 0 100px;
+  margin-top: 7%;
 }
 
 .hero__section {
@@ -123,4 +124,8 @@ a:hover {
   &--nav {
     @include toRem(20.8);
   }
+}
+
+.main__servicios {
+  margin-top: 7%;
 }

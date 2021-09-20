@@ -5,4 +5,13 @@
 
 nav {
   padding: 24px;
+  opacity: .9;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  top: 0px;
 }
