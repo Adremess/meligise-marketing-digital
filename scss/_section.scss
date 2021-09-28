@@ -8,6 +8,7 @@
     justify-content: space-evenly;
   }
   &__title {
+    text-align: center;
     @include screenSize-down(s) {
       h2 {
         font-size: 1.8rem !important;
