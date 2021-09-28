@@ -296,7 +296,7 @@ header {
     flex-direction: row !important; }
   .section__info {
     height: 280px !important;
-    width: 370px !important; }
+    width: 330px !important; }
     .section__info:not(:last-child) {
       margin: 0 40px 0 0 !important; } }
 
