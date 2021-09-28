@@ -8,6 +8,12 @@
     justify-content: space-evenly;
   }
   &__title {
+    @include screenSize-down(s) {
+      h2 {
+        font-size: 1.8rem !important;
+        text-align: center;
+      }
+    }
     width: 50%;
     h2 {
       @include toRem(40);
@@ -38,6 +44,9 @@
     height: 100px;
     border: 1px solid black;
     border-radius: 20px;
+    @include screenSize-down(s) {
+      margin-top: 15px;
+    }
   }
   &__h3 {
     font-weight: bold;

@@ -11,4 +11,15 @@
       }
     }
   }
+  @include screenSize-down(s) {
+    margin-top: 23%;
+    .carousel-caption {
+      h5 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
 }

@@ -57,6 +57,9 @@ a:hover {
   background-size: cover;
   border-radius: 0 100px 0 100px;
   margin-top: 7%; }
+  @media screen and (max-width: 424px) {
+    .hero {
+      margin-top: 23% !important; } }
   @media screen and (max-width: 767px) {
     .hero {
       height: 90vh; } }
@@ -75,12 +78,18 @@ a:hover {
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 7px black; }
+  @media screen and (max-width: 424px) {
+    .hero__section h1 {
+      margin-left: 15px; } }
 
 .hero__section p {
   font-size: 1.4375rem;
   padding-top: 50px;
   color: white;
   text-shadow: 2px 2px 7px black; }
+  @media screen and (max-width: 424px) {
+    .hero__section p {
+      margin-left: 15px; } }
 
 .boton__consulta--cta {
   margin-top: 20px;
@@ -244,6 +253,10 @@ header {
     justify-content: space-evenly; }
   .section__title {
     width: 50%; }
+    @media screen and (max-width: 424px) {
+      .section__title h2 {
+        font-size: 1.8rem !important;
+        text-align: center; } }
     .section__title h2 {
       font-size: 2.5rem;
       font-weight: bold;
@@ -268,6 +281,9 @@ header {
     height: 100px;
     border: 1px solid black;
     border-radius: 20px; }
+    @media screen and (max-width: 424px) {
+      .section__img {
+        margin-top: 15px; } }
   .section__h3 {
     font-weight: bold;
     font-size: 1.4375rem;
@@ -512,6 +528,9 @@ header {
       margin-top: 12%; }
       .container__nosotros .postcard__img {
         max-height: 300px !important; } }
+  @media screen and (max-width: 424px) {
+    .container__nosotros {
+      margin-top: 23%; } }
 
 /* This pen */
 .light {
@@ -746,3 +765,10 @@ a, a:hover {
         font-size: 3rem; }
       .main__testimoniales .carousel-caption p {
         font-size: 2rem; } }
+  @media screen and (max-width: 424px) {
+    .main__testimoniales {
+      margin-top: 23%; }
+      .main__testimoniales .carousel-caption h5 {
+        font-size: 2rem; }
+      .main__testimoniales .carousel-caption p {
+        font-size: 1rem; } }

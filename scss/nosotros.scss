@@ -16,6 +16,9 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
       max-height: 300px !important;
     }
   }
+  @include screenSize-down(s) {
+    margin-top: 23%;
+  }
 }
 
 
