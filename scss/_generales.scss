@@ -72,11 +72,17 @@ a:hover {
     margin-top: 23% !important;
     height: 90vh !important;
   }
+  @include screenSize-up(s) {
+    margin-top: 17%;
+  }
   @include screenSize-down(md) {
     height: 90vh;
   }
   @include screenSize-up(md) {
     margin-top: 12%;
+  }
+  @include screenSize-up(lg) {
+    margin-top: 9%;
   }
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,6 +105,10 @@ a:hover {
   @include screenSize-down(s) {
     margin-left: 15px;
   }
+  @include screenSize-up(s) {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .hero__section p {
@@ -108,6 +118,10 @@ a:hover {
   text-shadow: 2px 2px 7px black;
   @include screenSize-down(s) {
     margin-left: 15px;
+  }
+  @include screenSize-up(s) {
+    text-align: center;
+    margin: 0 auto;
   }
 }
 

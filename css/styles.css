@@ -61,12 +61,18 @@ a:hover {
     .hero {
       margin-top: 23% !important;
       height: 90vh !important; } }
+  @media screen and (min-width: 425px) {
+    .hero {
+      margin-top: 17%; } }
   @media screen and (max-width: 767px) {
     .hero {
       height: 90vh; } }
   @media screen and (min-width: 768px) {
     .hero {
       margin-top: 12%; } }
+  @media screen and (min-width: 1024px) {
+    .hero {
+      margin-top: 9%; } }
 
 .hero__section {
   display: flex;
@@ -82,6 +88,10 @@ a:hover {
   @media screen and (max-width: 424px) {
     .hero__section h1 {
       margin-left: 15px; } }
+  @media screen and (min-width: 425px) {
+    .hero__section h1 {
+      text-align: center;
+      margin: 0 auto; } }
 
 .hero__section p {
   font-size: 1.4375rem;
@@ -91,6 +101,10 @@ a:hover {
   @media screen and (max-width: 424px) {
     .hero__section p {
       margin-left: 15px; } }
+  @media screen and (min-width: 425px) {
+    .hero__section p {
+      text-align: center;
+      margin: 0 auto; } }
 
 .boton__consulta--cta {
   margin-top: 20px;
