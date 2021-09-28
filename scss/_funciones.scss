@@ -10,13 +10,6 @@
   }
 }
 
-@mixin darkMode ($active: false) {
-  @if $active {
-    @content;
-  }
-}
-
-
 @mixin toRem ($fontSize) {
   font-size: ($fontSize / 16) + rem;
 }

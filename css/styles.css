@@ -59,7 +59,8 @@ a:hover {
   margin-top: 7%; }
   @media screen and (max-width: 424px) {
     .hero {
-      margin-top: 23% !important; } }
+      margin-top: 23% !important;
+      height: 90vh !important; } }
   @media screen and (max-width: 767px) {
     .hero {
       height: 90vh; } }
@@ -439,6 +440,9 @@ header {
   margin-bottom: 12px;
   font-weight: bold;
   font-size: 16px; }
+  @media screen and (max-width: 424px) {
+    .footer-dark h3 {
+      font-size: 18px; } }
 
 .footer-dark ul {
   padding: 0;
@@ -451,6 +455,9 @@ header {
   color: inherit;
   text-decoration: none;
   opacity: 0.6; }
+  @media screen and (max-width: 424px) {
+    .footer-dark ul a {
+      font-size: 16px; } }
 
 .footer-dark ul a:hover {
   opacity: 0.8; }
@@ -458,14 +465,12 @@ header {
 @media (max-width: 767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+  .footer-dark .item.text {
+    margin-bottom: 0; } }
 
 .footer-dark .item.text {
   margin-bottom: 36px; }
-
-@media (max-width: 767px) {
-  .footer-dark .item.text {
-    margin-bottom: 0; } }
 
 .footer-dark .item.text p {
   opacity: 0.6;
@@ -491,6 +496,9 @@ header {
   margin: 0 4px 10px 4px;
   color: #bbb6b6;
   opacity: .8; }
+  @media screen and (max-width: 424px) {
+    .footer-dark .item.social > a {
+      font-size: 30px; } }
 
 .footer-dark .item.social > a:hover {
   opacity: 1; }
@@ -532,7 +540,6 @@ header {
     .container__nosotros {
       margin-top: 23%; } }
 
-/* This pen */
 .light {
   background: #f3f5f7; }
 
@@ -546,7 +553,7 @@ a, a:hover {
   text-align: center;
   font-size: 2.5rem; }
 
-/* Cards */
+/* C A R D S */
 .postcard {
   flex-wrap: wrap;
   display: flex;
@@ -675,7 +682,7 @@ a, a:hover {
   .postcard.light .postcard__text:before {
     background: #e1e5ea; } }
 
-/* COLORS */
+/* C O L O R S */
 .postcard .postcard__tagbox .green.play:hover {
   background: #79dd09;
   color: black; }

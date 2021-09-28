@@ -21,15 +21,6 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
   }
 }
 
-
-/* This pen */
-// body {
-// 	font-family: "Baloo 2", cursive;
-// 	font-size: 16px;
-// 	text-rendering: optimizeLegibility;
-// 	font-weight: initial;
-// }
-
 .light {
 	background: #f3f5f7;
 }
@@ -46,7 +37,7 @@ a, a:hover {
 	font-size: 2.5rem;
 }
 
-/* Cards */
+/* C A R D S */
 .postcard {
   flex-wrap: wrap;
   display: flex;
@@ -242,7 +233,7 @@ a, a:hover {
   }
 }
 
-/* COLORS */
+/* C O L O R S */
 .postcard .postcard__tagbox .green.play:hover {
 	background: $main-green;
 	color: black;
