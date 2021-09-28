@@ -46,6 +46,21 @@
   }
 }
 
+@include screenSize-up(lg) {
+  .section {
+    &__items {
+      flex-direction: row !important;
+    }
+    &__info {
+      height: 280px !important;
+      width: 370px !important;
+      &:not(:last-child) {
+        margin: 0 40px 0 0 !important;
+      }
+    }
+  }
+}
+
 @include screenSize-up(md) {
   .section {
     width: 100%;
@@ -115,10 +130,6 @@
   display: inline-block;
   width: 100%;
   height: fit-content;
-  @include screenSize-up(xl) {
-    margin: 0 0 0 6rem;
-    padding: 0 0 0 6rem;
-  }
   @include screenSize-up(lg) {
     margin: 0 0 0 2rem;
     padding: 0 0 0 2rem;
@@ -126,5 +137,9 @@
   @include screenSize-up(md) {
     margin: 0 0 0 2rem;
     padding: 0 0 0 2rem;
+  }
+  @include screenSize-up(xl) {
+    margin: 0 0 0 6rem;
+    padding: 0 0 0 6rem;
   }
 }

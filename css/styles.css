@@ -273,6 +273,15 @@ header {
     font-size: 1.4375rem;
     margin: 16px 0 24px 0; }
 
+@media screen and (min-width: 1024px) {
+  .section__items {
+    flex-direction: row !important; }
+  .section__info {
+    height: 280px !important;
+    width: 370px !important; }
+    .section__info:not(:last-child) {
+      margin: 0 40px 0 0 !important; } }
+
 @media screen and (min-width: 768px) {
   .section {
     width: 100%;
@@ -324,10 +333,6 @@ header {
   display: inline-block;
   width: 100%;
   height: fit-content; }
-  @media screen and (min-width: 1400px) {
-    .preguntas {
-      margin: 0 0 0 6rem;
-      padding: 0 0 0 6rem; } }
   @media screen and (min-width: 1024px) {
     .preguntas {
       margin: 0 0 0 2rem;
@@ -336,6 +341,10 @@ header {
     .preguntas {
       margin: 0 0 0 2rem;
       padding: 0 0 0 2rem; } }
+  @media screen and (min-width: 1400px) {
+    .preguntas {
+      margin: 0 0 0 6rem;
+      padding: 0 0 0 6rem; } }
 
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
