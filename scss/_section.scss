@@ -46,6 +46,31 @@
   }
 }
 
+@include screenSize-up(md) {
+  .section {
+    width: 100%;
+    height: auto;
+    &__container {
+      height: 100%;
+      width: 80%;
+      flex-direction: column !important;
+    }
+    &__items {
+      flex-direction: column;
+    }
+    &__info {
+      width: 100%;
+      height: auto;
+      &:not(:last-child) {
+        margin: 0 0 45px 0;
+      }
+    }
+    &__title {
+      width: 80%;
+    }
+  }
+}
+
 @include screenSize-down (md) {
   .section {
     width: 100%;
@@ -83,5 +108,23 @@
 }
 
 .accordion__container {
-  margin: 50px auto;
+  margin: 10px auto 50px auto;
+}
+
+.preguntas {
+  display: inline-block;
+  width: 100%;
+  height: fit-content;
+  @include screenSize-up(xl) {
+    margin: 0 0 0 6rem;
+    padding: 0 0 0 6rem;
+  }
+  @include screenSize-up(lg) {
+    margin: 0 0 0 2rem;
+    padding: 0 0 0 2rem;
+  }
+  @include screenSize-up(md) {
+    margin: 0 0 0 2rem;
+    padding: 0 0 0 2rem;
+  }
 }

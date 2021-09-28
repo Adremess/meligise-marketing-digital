@@ -10,15 +10,22 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 
 .container__nosotros {
   margin-top: 10%;
+  @include screenSize-up(md) {
+    margin-top: 12%;
+    .postcard__img {
+      max-height: 300px !important;
+    }
+  }
 }
 
+
 /* This pen */
-body {
-	font-family: "Baloo 2", cursive;
-	font-size: 16px;
-	text-rendering: optimizeLegibility;
-	font-weight: initial;
-}
+// body {
+// 	font-family: "Baloo 2", cursive;
+// 	font-size: 16px;
+// 	text-rendering: optimizeLegibility;
+// 	font-weight: initial;
+// }
 
 .light {
 	background: #f3f5f7;

@@ -71,6 +71,9 @@ a:hover {
   @include screenSize-down(md) {
     height: 90vh;
   }
+  @include screenSize-up(md) {
+    margin-top: 12%;
+  }
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 100px 0 100px;
@@ -156,6 +159,9 @@ a:hover {
   transition: all 1s ease-in-out;
   .testt {
     transform: translate(0, -100%);
+    @include screenSize-up(md) {
+      transform: translate(0, -120%);
+    }
   }
   &:hover {
     .testt{
@@ -244,3 +250,27 @@ a:hover {
   }
   }
 }
+
+.main__testimoniales {
+  margin-top: 7%;
+  @include screenSize-down(s) {
+    margin-top: 22%;
+  }
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+// .carousel .carousel-item {
+//   height: 500px;
+// }
+
+// .carousel-item img {
+//     position: absolute;
+//     //object-fit:cover;
+//     top: 0;
+//     left: 0;
+//     //min-height: 500px;
+// }

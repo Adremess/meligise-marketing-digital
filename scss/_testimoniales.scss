@@ -1,0 +1,14 @@
+.main__testimoniales {
+  margin-top: 7%;
+  @include screenSize-up(md) {
+    margin-top: 12%;
+    .carousel-caption {
+      h5 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -11,3 +11,12 @@
     color: white;
   }
 }
+
+.main__contacto {
+  @include screenSize-down(s) {
+    margin-top: 22%;
+  }
+  @include screenSize-up(md) {
+    margin-top: 12%;
+  }
+}
